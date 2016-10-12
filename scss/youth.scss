@@ -1,0 +1,361 @@
+
+@import "settings";
+@import "function";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width:700px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+nav{
+	position: fixed;
+	top: 0;
+	// background-color: rgba(216,216,216,0.88);
+	// background-color: #d8d8d8;
+	width: 100%;
+	z-index: 30;
+	height: 56px;
+	background-color:rgba(255,255,255,0);
+	// box-shadow: 0px 0px 1px 1px #888;
+	h3{
+		text-align: center;
+		padding-top: 8px;
+	}
+	.ham{
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 35px;
+		height: 30px;
+		float: right;
+		right: 50px;
+		top: -40px;
+		cursor: pointer;
+		.line{
+			width: 35px;
+			height: 4px;
+			position: absolute;
+			background-color: #000;
+			border-radius: 20%;
+		}
+		.line1{
+			top: 0;
+			right: 0;
+		}
+		.line2{
+			top: 8px;
+			right: 0;
+		}
+		.line3{
+			top: 16px;
+			right: 0;
+		}
+		.line4{
+			top: 24px;
+			right: 0;
+		}
+	}
+}
+
+.g-nav{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: 25;
+	background-color: rgba(255,255,255,0.95);
+	box-sizing:border-box;
+	padding-top: 100px;
+	display: none;
+	.nav-con{
+		width: 900px;
+		margin: 0 auto;
+		.nav-img{
+			width: 400px;
+			margin-left: 70px;
+			overflow: hidden;
+			height: 424px;
+			float: left;
+			.nav-slide{
+				position: relative;
+				width: 100%;
+				img{
+					position: absolute;
+					top: 30px;
+					left: 0;
+					width: 100%;	
+					display: none;
+				}
+			}
+		}
+		ul{
+			width: 430px;
+			padding-bottom: 120px;
+			float: left;
+			li{
+				list-style-type: none;
+				a{
+					text-decoration: none;
+					color: #000;
+					// font-weight: bold;
+					font-size: 2.4em;
+					line-height: 2;
+					-webkit-transition: color .25s ease;
+					   -moz-transition: color .25s ease;
+					    -ms-transition: color .25s ease;
+					     -o-transition: color .25s ease;
+					        transition: color .25s ease;
+					&:hover{
+						color: rgba(0,0,0,0.6)
+					}
+				}
+			}
+		}
+	}
+	footer{
+		width: 100%;
+		height: 180px;
+		float: left;
+		margin-top: 30px;
+		.sns{
+			text-align: center;
+			width: 120px;
+			margin: 0 auto;
+			padding: 10px 0;
+			p{
+				padding-bottom: 10px;
+				font-size: 10px;
+				text-align: center;
+			}
+			.icon{
+				float: left;
+				width: 40px;
+				font-size: 25px;
+				color: #000;
+			}
+		}
+		#copy{
+			text-align: center;
+			padding-top: 30px;
+			font-size: 10px;
+			letter-spacing: 0.2em;
+			#c{
+				font-size: 12px;
+				margin-top:3px; 
+			}
+		}
+	}
+}
+
+main{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+	.l-bar{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+		height: 100%;
+		line-height: 100vh;
+		font-size: 2em;
+		font-weight: bold;
+		padding:0 15px;
+		color: rgba(0,0,0,0.8);
+		cursor: pointer;
+		background-color: rgba(255,255,255,0.1);
+		-webkit-transition: all .25s ease;
+		   -moz-transition: all .25s ease;
+		    -ms-transition: all .25s ease;
+		     -o-transition: all .25s ease;
+		        transition: all .25s ease;
+		&:hover{
+		background-color: rgba(255,255,255,0.8);
+		color: rgba(0,0,0,0.3);
+		}
+	}
+	.r-bar{
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+		height: 100%;
+		line-height: 100vh;
+		font-size: 2em;
+		font-weight: bold;
+		padding:0 15px;
+		color: rgba(0,0,0,0.8);
+		cursor: pointer;
+		background-color: rgba(255,255,255,0.1);
+		-webkit-transition: all .25s ease;
+		   -moz-transition: all .25s ease;
+		    -ms-transition: all .25s ease;
+		     -o-transition: all .25s ease;
+		        transition: all .25s ease;
+		&:hover{
+		background-color: rgba(255,255,255,0.8);
+		color: rgba(0,0,0,0.3);
+		}
+	}
+	.top{
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0%;
+		position:absolute;
+		background-image: url(../img/youth_hattori.jpg);
+		background-size: cover;
+		.title-text{
+			text-align: center;
+			h1{
+				font-size: 4.5em;
+				padding-top: 100px;		
+				width: 100%;
+				font-family: kozG-M;
+				letter-spacing: 0.04em;
+				font-style: italic;
+			}
+			h2{
+				padding-top: 50px;
+				line-height: 2.5em;
+				font-size: 1.3em;
+				width: 100%;
+				font-family: kozG-R;
+			}
+		}
+	}
+	.eye{
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		display: none;
+		position:absolute;
+		background-image: url(../img/youth_inada2.jpg);
+		background-size: cover;
+		h3{
+			font-size: 1.3em;
+			position: absolute;
+			letter-spacing: 0.1em;
+			top: 100px;
+			left: 100px;
+			font-family: KozG-B;
+			#name{
+				font-size: 1.4em;
+			}
+		}
+		h4{
+			position:absolute;
+			bottom: 30px;
+			left: 100px;
+			letter-spacing: 0.1em;
+			font-size: 1.5em;
+			font-family: KozG-R;
+			a{
+				color: #000;
+				&:hover{
+					color:#fff;
+				}
+			}
+		}
+		p{
+			width: 500px;
+			box-sizing:border-box;
+			padding: 30px;
+			background-color: rgba(255,255,255,1);
+			font-size: 0.9em;
+			letter-spacing: 0;
+			position: absolute;
+			bottom: 30px;
+			right: 100px;
+			font-family: KozG-M;
+		}
+	}
+	.stylist{
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		display: none;
+		position:absolute;
+		background-image: url(../img/youth_hattori2.jpg);
+		background-size: cover;
+		h3{
+			font-size: 4em;
+			position: absolute;
+			letter-spacing: 0.1em;
+			top: 100px;
+			right: 100px;
+			font-family: KozG-H;
+		}
+		h4{
+			position:absolute;
+			bottom: 30px;
+			right: 100px;
+			font-size: 1.5em;
+			a{
+				color: #fff;
+				&:hover{
+					color: #000;
+				}
+			}
+		}
+		p{
+			width: 500px;
+			box-sizing:border-box;
+			padding: 30px;
+			background-color: rgba(255,255,255,0.5);
+			font-size: 0.9em;
+			letter-spacing: 0;
+			position: absolute;
+			bottom: 30px;
+			left: 100px;
+			font-family: KozG-R;
+		}
+	}
+	.dareka{
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		display: none;
+		position:absolute;
+		background-image: url(../img/youth_hattori2.jpg);
+		background-size: cover;
+	}
+		h1{
+			font-size: 4em;
+			position: absolute;
+			top: 100px;
+			left: 30px;
+		}
+		h2{
+			position:absolute;
+			bottom: 30px;
+			left: 50px;
+			font-size: 1.5em;
+			a{
+				color: #000;
+			}
+		}
+		p{
+			width: 500px;
+			box-sizing:border-box;
+			padding: 30px;
+			background-color: rgba(255,255,255,0.5);
+			font-size: 0.9em;
+			letter-spacing: 0.2em;
+			position: absolute;
+			bottom: 30px;
+			right: 50px;
+		}
+}
