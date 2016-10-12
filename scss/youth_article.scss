@@ -126,23 +126,21 @@ nav{
 	}
 	footer{
 		width: 100%;
-		height: 180px;
 		float: left;
-		margin-top: 30px;
 		.sns{
 			text-align: center;
 			width: 120px;
 			margin: 0 auto;
 			padding: 10px 0;
 			p{
-				padding-bottom: 10px;
+				padding-bottom: 5px;
 				font-size: 10px;
 				text-align: center;
 			}
 			.icon{
 				float: left;
 				width: 40px;
-				font-size: 25px;
+				font-size: 20px;
 				color: #000;
 			}
 			#follow{
@@ -185,8 +183,14 @@ main{
 			letter-spacing: 0.01em;
 			line-height: 1.8;
 			font-size: 0.9em;
+			.hattori{
+				font-family: KozG-H;
+			}
 			a{
 				text-decoration: none;
+			}
+			#main{
+				font-family: KozG-M;
 			}
 		}
 		.share{
@@ -200,34 +204,17 @@ main{
 			text-align: center;
 			margin: 0 auto;
 			width: 700px;
-			font-size: 1.4em;
+			font-size: 1.7em;
 			margin-bottom: 50px;
+			font-family: KozG-m;
 		}
 	}
 }
 
 footer{
-	width: 100%;
-	height: 180px;
-	position: relative;
-	h4{
-		position: absolute;
-		text-align: center;
-		top: 0;
-		left: 50%;
-		margin-left: -25px;
-		color: #fff;
-		background-color: #000;
-		width: 50px;
-		height: 20px;
-		font-size: 10px;
-		font-weight: normal;
-		cursor: pointer;
-		a{
-			text-decoration: none;
-			color: #fff;
-		}
-	}
+	// width: 100%;
+	// height: 300px;
+	// position: relative;
 	.sns{
 		text-align: center;
 		width: 120px;

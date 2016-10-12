@@ -206,24 +206,66 @@ main {
     top: 0;
     left: 0%;
     position: absolute;
-    background-image: url(../img/youth_hattori.jpg);
+    background-image: url(../img/youth_main.png);
     background-size: cover; }
     main .top .title-text {
       text-align: center; }
       main .top .title-text h1 {
         font-size: 4.5em;
-        padding-top: 100px;
+        padding-top: 50px;
         width: 100%;
         font-family: kozG-M;
         letter-spacing: 0.04em;
         font-style: italic; }
-      main .top .title-text h2 {
-        padding-top: 50px;
+      main .top .title-text #subtext {
         line-height: 2.5em;
         font-size: 1.3em;
         width: 100%;
-        font-family: kozG-R; }
+        font-family: kozG-R;
+        bottom: 80px; }
+        main .top .title-text #subtext .person {
+          font-family: KozG-B; }
   main .eye {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    position: absolute;
+    background-image: url(../img/youth_hattori2.jpg);
+    background-size: cover; }
+    main .eye h3 {
+      font-size: 1.7em;
+      position: absolute;
+      letter-spacing: 0.1em;
+      top: 100px;
+      right: 100px;
+      font-family: KozG-B; }
+      main .eye h3 .name {
+        font-size: 1.4em; }
+    main .eye h4 {
+      position: absolute;
+      bottom: 30px;
+      right: 100px;
+      letter-spacing: 0.1em;
+      font-size: 1.5em;
+      font-family: KozG-R; }
+      main .eye h4 a {
+        color: #fff; }
+        main .eye h4 a:hover {
+          color: #000; }
+    main .eye p {
+      width: 500px;
+      box-sizing: border-box;
+      padding: 30px;
+      background-color: white;
+      font-size: 0.9em;
+      letter-spacing: 0;
+      position: absolute;
+      bottom: 30px;
+      left: 100px;
+      font-family: KozG-M; }
+  main .stylist {
     width: 100%;
     height: 100vh;
     top: 0;
@@ -232,27 +274,25 @@ main {
     position: absolute;
     background-image: url(../img/youth_inada2.jpg);
     background-size: cover; }
-    main .eye h3 {
-      font-size: 1.3em;
+    main .stylist h3 {
+      font-size: 1.7em;
       position: absolute;
       letter-spacing: 0.1em;
       top: 100px;
       left: 100px;
       font-family: KozG-B; }
-      main .eye h3 #name {
+      main .stylist h3 .name {
         font-size: 1.4em; }
-    main .eye h4 {
+    main .stylist h4 {
       position: absolute;
       bottom: 30px;
       left: 100px;
-      letter-spacing: 0.1em;
-      font-size: 1.5em;
-      font-family: KozG-R; }
-      main .eye h4 a {
-        color: #000; }
-        main .eye h4 a:hover {
-          color: #fff; }
-    main .eye p {
+      font-size: 1.5em; }
+      main .stylist h4 a {
+        color: #fff; }
+        main .stylist h4 a:hover {
+          color: #000; }
+    main .stylist p {
       width: 500px;
       box-sizing: border-box;
       padding: 30px;
@@ -263,42 +303,6 @@ main {
       bottom: 30px;
       right: 100px;
       font-family: KozG-M; }
-  main .stylist {
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: none;
-    position: absolute;
-    background-image: url(../img/youth_hattori2.jpg);
-    background-size: cover; }
-    main .stylist h3 {
-      font-size: 4em;
-      position: absolute;
-      letter-spacing: 0.1em;
-      top: 100px;
-      right: 100px;
-      font-family: KozG-H; }
-    main .stylist h4 {
-      position: absolute;
-      bottom: 30px;
-      right: 100px;
-      font-size: 1.5em; }
-      main .stylist h4 a {
-        color: #fff; }
-        main .stylist h4 a:hover {
-          color: #000; }
-    main .stylist p {
-      width: 500px;
-      box-sizing: border-box;
-      padding: 30px;
-      background-color: rgba(255, 255, 255, 0.5);
-      font-size: 0.9em;
-      letter-spacing: 0;
-      position: absolute;
-      bottom: 30px;
-      left: 100px;
-      font-family: KozG-R; }
   main .dareka {
     width: 100%;
     height: 100vh;
