@@ -16,13 +16,13 @@ body{
 }
 
 .container{
-	width: 700px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 .container2{
-	width: 800px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -153,6 +153,7 @@ header{
 		font-family: kozG-M;
 		float: right;
 		margin-top: 20px;
+		text-align: center;
 	}
 	h1{
 		// text-align: center;
@@ -162,10 +163,12 @@ header{
 		margin-left: -20px;
 		// text-align: center;
 		font-family: kozG-B;
+		text-align: center;
 	}
 	p{
 		letter-spacing: 0.18em;
-		font-size: 10px;
+		font-size: 4px;
+		text-align: center;
 		line-height: 1.9em;
 		// text-align: center;
 		font-family: kozG-M;
