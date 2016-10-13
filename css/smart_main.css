@@ -206,8 +206,7 @@
     width: 100%;
     background-size: cover;
     background-image: url(../img/main_back.JPG);
-    background-position: center center;
-    background-attachment: fixed; }
+    background-position: center center; }
 
   .contents2 {
     background-color: #000; }
