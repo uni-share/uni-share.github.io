@@ -191,7 +191,7 @@
       overflow: hidden;
       width: 100%; }
       .cover .select img {
-        width: 32.5%;
+        width: 32%;
         cursor: pointer; }
         .cover .select img:hover {
           opacity: 0.8; }
