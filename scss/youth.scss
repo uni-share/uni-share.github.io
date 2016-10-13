@@ -101,6 +101,14 @@ nav{
 			float: left;
 			li{
 				list-style-type: none;
+				#youth{
+					font-size: 2em;
+					padding-top: 200px;
+					width: 100%;
+					font-family: kozG-B;
+					// letter-spacing: 0.04em;
+					font-style: italic;
+				}
 				a{
 					text-decoration: none;
 					color: #000;
@@ -164,12 +172,12 @@ main{
 		position: absolute;
 		left: 0;
 		top: 0;
+		width: 10%;
 		z-index: 10;
 		height: 100%;
 		line-height: 100vh;
 		font-size: 2em;
 		font-weight: bold;
-		padding:0 15px;
 		color: rgba(0,0,0,0.8);
 		cursor: pointer;
 		background-color: rgba(255,255,255,0.1);
@@ -187,12 +195,12 @@ main{
 		position: absolute;
 		right: 0;
 		top: 0;
+		width: 10%;
 		z-index: 10;
 		height: 100%;
 		line-height: 100vh;
 		font-size: 2em;
 		font-weight: bold;
-		padding:0 15px;
 		color: rgba(0,0,0,0.8);
 		cursor: pointer;
 		background-color: rgba(255,255,255,0.1);
