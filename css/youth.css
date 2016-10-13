@@ -31,6 +31,9 @@
 @font-face {
   font-family: kozM-H;
   src: url(../fonts_web/KozMinPro-Heavy.otf) format("opentype"); }
+@font-face {
+  font-family: Yu;
+  src: url(../fonts_web/YuGothicMedium.otf) format("opentype"); }
 * {
   margin: 0;
   padding: 0; }
@@ -204,27 +207,30 @@ main {
     width: 100%;
     height: 100vh;
     top: 0;
-    left: 0%;
+    left: 0;
     position: absolute;
     background-image: url(../img/youth_main.png);
-    background-size: cover; }
-    main .top .title-text {
-      text-align: center; }
-      main .top .title-text h1 {
-        font-size: 4.5em;
-        padding-top: 50px;
-        width: 100%;
-        font-family: kozG-M;
-        letter-spacing: 0.04em;
-        font-style: italic; }
-      main .top .title-text #subtext {
-        line-height: 2.5em;
-        font-size: 1.3em;
-        width: 100%;
-        font-family: kozG-R;
-        bottom: 80px; }
-        main .top .title-text #subtext .person {
-          font-family: KozG-B; }
+    background-size: cover;
+    color: #000;
+    text-align: center;
+    width: 100%; }
+    main .top #main-title {
+      font-size: 3em;
+      padding-top: 200px;
+      width: 100%;
+      font-family: kozG-B;
+      letter-spacing: 0.04em;
+      font-style: italic;
+      width: 100%; }
+    main .top h5 {
+      font-family: KozG-M;
+      letter-spacing: 0.13em;
+      width: 510px;
+      padding-top: 10px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 0.9em;
+      line-height: 2; }
   main .eye {
     width: 100%;
     height: 100vh;

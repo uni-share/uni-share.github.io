@@ -31,6 +31,9 @@
 @font-face {
   font-family: kozM-H;
   src: url(../fonts_web/KozMinPro-Heavy.otf) format("opentype"); }
+@font-face {
+  font-family: Yu;
+  src: url(../fonts_web/YuGothicMedium.otf) format("opentype"); }
 * {
   margin: 0;
   padding: 0; }

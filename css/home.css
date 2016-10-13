@@ -31,6 +31,9 @@
 @font-face {
   font-family: kozM-H;
   src: url(../fonts_web/KozMinPro-Heavy.otf) format("opentype"); }
+@font-face {
+  font-family: Yu;
+  src: url(../fonts_web/YuGothicMedium.otf) format("opentype"); }
 * {
   margin: 0;
   padding: 0; }
@@ -199,7 +202,8 @@ main .msg, main .msg2 {
   padding-top: 90px;
   box-sizing: border-box;
   letter-spacing: 0.14em;
-  line-height: 1.7; }
+  line-height: 2.5;
+  font-family: KozG-L; }
   main .msg p, main .msg2 p {
     text-shadow: 4px 2px 0 rgba(255, 255, 255, 0.5); }
 main .big-com1 {
