@@ -208,6 +208,20 @@ main{
 			margin-bottom: 50px;
 			font-family: KozG-m;
 		}
+		.mail{
+			text-decoration: none;
+			border: solid #fff 1px;
+			padding: 10px;
+			display: block;
+			width: 60%;
+			margin: 0 auto;
+			color: #fff;
+			transition: all .5s ease;
+			&:hover{
+				background-color: #fff;
+				color: #000;
+			}
+		}
 	}
 }
 

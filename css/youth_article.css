@@ -197,6 +197,18 @@ main .container h3 {
   font-size: 1.7em;
   margin-bottom: 50px;
   font-family: KozG-m; }
+main .container .mail {
+  text-decoration: none;
+  border: solid #fff 1px;
+  padding: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+  transition: all .5s ease; }
+  main .container .mail:hover {
+    background-color: #fff;
+    color: #000; }
 
 footer .sns {
   text-align: center;
