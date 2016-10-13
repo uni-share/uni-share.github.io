@@ -41,12 +41,12 @@
     font-family: kozG-L; }
 
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden; }
 
   .container2 {
-    width: 100%;
+    width: 86%;
     margin: 0 auto;
     overflow: hidden; }
 
@@ -250,15 +250,11 @@
       letter-spacing: 0.05em; }
     .webcontents .webmaga {
       width: 100%;
-      box-sizing: border-box;
+      height: 100%;
       background-color: #fff;
       float: left; }
-      .webcontents .webmaga:hover {
-        background-color: #888; }
       .webcontents .webmaga img {
         width: 100%; }
-        .webcontents .webmaga img:hover {
-          opacity: 0.5; }
 
   .stock {
     width: 100%;
@@ -270,10 +266,10 @@
       padding: 30px 0;
       font-family: KozG-EL; }
     .stock .left {
-      width: 340px;
+      width: 100%;
       float: left; }
       .stock .left h4 {
-        font-size: 2.3em;
+        font-size: 2em;
         border-left: #fff solid 5px;
         padding-left: 15px;
         margin-bottom: 10px;
@@ -284,10 +280,10 @@
         font-size: 1.2em;
         margin-bottom: 20px; }
     .stock .right {
-      width: 270px;
+      width: 100%;
       float: left; }
       .stock .right p {
-        font-size: 0.9em; }
+        font-size: 1.2em; }
       .stock .right h5 {
         font-size: 2em;
         border-left: #fff solid 4px;
@@ -295,10 +291,10 @@
         margin-bottom: 10px;
         line-height: 1.2; }
     .stock .right2 {
-      width: 180px;
+      width: 100%;
       float: left; }
       .stock .right2 p {
-        font-size: 0.9em;
+        font-size: 1.2em;
         margin-bottom: 20px; }
       .stock .right2 h5 {
         font-size: 2em;
@@ -311,7 +307,7 @@
   .contact {
     width: 100%;
     height: 50vh;
-    padding-bottom: 50px;
+    padding-bottom: 300px;
     background-color: #000;
     color: #fff;
     text-align: center; }
@@ -324,6 +320,7 @@
       text-decoration: none;
       border: solid #fff 1px;
       padding: 10px;
+      font-size: 0.9em;
       display: block;
       width: 60%;
       margin: 0 auto;
