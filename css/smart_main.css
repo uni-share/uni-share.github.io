@@ -160,7 +160,7 @@
       text-align: center; }
     .magazine p {
       letter-spacing: 0.18em;
-      font-size: 4px;
+      font-size: 7px;
       text-align: center;
       line-height: 1.9em;
       font-family: kozG-M; }
@@ -169,13 +169,14 @@
 
   .cover {
     width: 100%;
-    margin: 0 0 150px; }
+    margin: 0 0 150px;
+    overflow: hidden; }
     .cover .container {
       overflow: hidden;
       position: relative;
       text-align: center; }
     .cover .main-cover {
-      width: 495px;
+      width: 100%;
       float: left; }
       .cover .main-cover img {
         width: 100%; }
@@ -187,10 +188,10 @@
     .cover .select {
       float: left;
       overflow: hidden;
-      width: 160px;
+      width: 100%;
       margin-left: 10px; }
       .cover .select img {
-        width: 100%;
+        width: 30%;
         cursor: pointer; }
         .cover .select img:hover {
           opacity: 0.8; }
