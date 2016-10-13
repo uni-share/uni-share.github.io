@@ -1,4 +1,3 @@
-@media screen and (min-width:640px){
 
 
 @import "settings";
@@ -83,11 +82,14 @@ header{
 		}
 	}
 	.main-visual{
+		display: none;
+	}
+	.main-visual2{
 		position: relative;
 		#hero1{
 			width: 100%;
 			position: absolute;
-			top: -150px;
+			top: 0px;
 		}
 		#hero2{
 			width: 100%;
@@ -101,9 +103,6 @@ header{
 			top:-50px;
 			display: none;
 		}
-	}
-	.main-visual2{
-		display: none;
 	}
 }
 
@@ -424,9 +423,4 @@ footer{
 			margin-top:3px; 
 		}
 	}
-}
-
-
-
-
 }
