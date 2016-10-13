@@ -284,6 +284,18 @@ main{
 			bottom: 30px;
 			left: 100px;
 			font-family: KozG-M;
+			.jobs{
+				font-size: 1.5em;
+				letter-spacing: 0.1em;
+				font-family: KozG-B;
+				.name{
+				font-size: 1.7em;
+				}
+			}
+			a{
+				color: #000;
+				float: right;
+			}
 		}
 	}
 	.stylist{
@@ -329,6 +341,18 @@ main{
 			bottom: 30px;
 			right: 100px;
 			font-family: KozG-M;
+			.jobs{
+				font-size: 1.5em;
+				letter-spacing: 0.1em;
+				font-family: KozG-B;
+				.name{
+				font-size: 1.7em;
+				}
+			}
+			a{
+				color: #000;
+				float: right;
+			}
 		}
 	}
 	.dareka{
