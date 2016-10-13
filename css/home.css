@@ -258,7 +258,7 @@ main .small-com1 {
   main .small-com1 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/home_pic3.jpg");
+    background-image: url("../img/home_pic3.JPG");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -312,7 +312,7 @@ main .big-com2 {
   main .big-com2 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/home_pic5.jpg");
+    background-image: url("../img/home_pic5.JPG");
     background-size: cover;
     background-position: center 10%;
     background-attachment: fixed; }
@@ -337,7 +337,7 @@ main .small-com3 {
     overflow: hidden;
     height: 100%;
     width: 100%;
-    background-image: url("../img/home_pic6.jpg");
+    background-image: url("../img/home_pic6.JPG");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
