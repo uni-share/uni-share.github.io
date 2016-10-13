@@ -296,47 +296,50 @@ header{
 		// letter-spacing: 0.1em;
 	}
 	.left{
-		width: 420px;
+		width: 350px;
 		float: left;
 		h4{
 			font-size: 2.3em;
 			border-left: #fff solid 5px;
 			padding-left: 15px;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 			font-weight: normal;
 			font-family: KozG-L;
 			line-height: 1.2;
 		}
 		p{
 			font-size: 1.2em;
+			margin-bottom: 20px;
 		}
 	}
 	.right{
-		width: 240px;
+		width: 270px;
 		float: left;
 		p{
-			font-size: 0.7em;
+			font-size: 0.9em;
 		}
 		h5{
 			font-size: 2em;
 			border-left: #fff solid 4px;
 			padding-left: 10px;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 			line-height: 1.2;
 		}
 	}
 	.right2{
-		width: 130px;
+		width: 170px;
 		float: left;
 		p{
-			font-size: 0.7em;
+			font-size: 0.9em;
+			margin-bottom: 20px;
 		}
 		h5{
 			font-size: 2em;
 			border-left: #fff solid 4px;
 			padding-left: 10px;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 			line-height: 1.2;
+			letter-spacing: 0;
 		}
 	}
 }
