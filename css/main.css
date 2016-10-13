@@ -111,7 +111,7 @@ header {
     header .main-visual #hero3 {
       width: 100%;
       position: absolute;
-      top: -100px;
+      top: -50px;
       display: none; }
 
 .circles {
@@ -263,7 +263,7 @@ header {
     padding: 30px 0;
     font-family: KozG-EL; }
   .stock .left {
-    width: 350px;
+    width: 340px;
     float: left; }
     .stock .left h4 {
       font-size: 2.3em;
@@ -288,7 +288,7 @@ header {
       margin-bottom: 10px;
       line-height: 1.2; }
   .stock .right2 {
-    width: 170px;
+    width: 180px;
     float: left; }
     .stock .right2 p {
       font-size: 0.9em;
