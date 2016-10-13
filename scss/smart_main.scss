@@ -244,9 +244,10 @@ header{
 		}
 		h4{
 			padding-bottom: 30px;
+			font-size: 9px;
 		}
 		p{
-			font-size: 14px;
+			font-size: 11px;
 			margin-top: 50px;
 			padding-bottom: 70px;
 			letter-spacing: 0.2em;
@@ -295,7 +296,7 @@ header{
 	color: #fff;
 	h3{
 		text-align: center;
-		font-size: 1em;
+		font-size: 2em;
 		padding: 15px 0;
 		font-family: KozG-EL;
 		// font-family: kozG-H;
@@ -310,7 +311,7 @@ header{
 			padding-left: 15px;
 			margin-bottom: 10px;
 			font-weight: normal;
-			font-family: KozG-L;
+			font-family: KozG-EL;
 			line-height: 1.2;
 		}
 		p{
@@ -331,22 +332,24 @@ header{
 			padding-left: 10px;
 			margin-bottom: 10px;
 			line-height: 1.2;
+			font-weight: normal;
 		}
 	}
 	.right2{
 		width: 100%;
 		float: left;
 		p{
-			font-size: 1.2em;
+			font-size: 0.7em;
 			margin-bottom: 20px;
 		}
 		h5{
-			font-size: 2em;
+			font-size: 1em;
 			border-left: #fff solid 4px;
 			padding-left: 10px;
 			margin-bottom: 10px;
 			line-height: 1.2;
 			letter-spacing: 0;
+			font-weight: normal;
 		}
 	}
 }

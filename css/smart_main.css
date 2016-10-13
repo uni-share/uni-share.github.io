@@ -219,9 +219,10 @@
         font-family: kozG-EL;
         letter-spacing: 0.05em; }
       .contents2 .container2 h4 {
-        padding-bottom: 30px; }
+        padding-bottom: 30px;
+        font-size: 9px; }
       .contents2 .container2 p {
-        font-size: 14px;
+        font-size: 11px;
         margin-top: 50px;
         padding-bottom: 70px;
         letter-spacing: 0.2em;
@@ -259,7 +260,7 @@
     color: #fff; }
     .stock h3 {
       text-align: center;
-      font-size: 1em;
+      font-size: 2em;
       padding: 15px 0;
       font-family: KozG-EL; }
     .stock .left {
@@ -271,7 +272,7 @@
         padding-left: 15px;
         margin-bottom: 10px;
         font-weight: normal;
-        font-family: KozG-L;
+        font-family: KozG-EL;
         line-height: 1.2; }
       .stock .left p {
         font-size: 0.7em;
@@ -287,20 +288,22 @@
         border-left: #fff solid 4px;
         padding-left: 10px;
         margin-bottom: 10px;
-        line-height: 1.2; }
+        line-height: 1.2;
+        font-weight: normal; }
     .stock .right2 {
       width: 100%;
       float: left; }
       .stock .right2 p {
-        font-size: 1.2em;
+        font-size: 0.7em;
         margin-bottom: 20px; }
       .stock .right2 h5 {
-        font-size: 2em;
+        font-size: 1em;
         border-left: #fff solid 4px;
         padding-left: 10px;
         margin-bottom: 10px;
         line-height: 1.2;
-        letter-spacing: 0; }
+        letter-spacing: 0;
+        font-weight: normal; }
 
   .contact {
     width: 100%;
