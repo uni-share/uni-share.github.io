@@ -160,7 +160,7 @@
       text-align: center; }
     .magazine p {
       letter-spacing: 0.18em;
-      font-size: 7px;
+      font-size: 12px;
       text-align: center;
       line-height: 1.9em;
       font-family: kozG-M; }
@@ -191,7 +191,7 @@
       width: 100%;
       margin-left: 10px; }
       .cover .select img {
-        width: 30%;
+        width: 32%;
         cursor: pointer; }
         .cover .select img:hover {
           opacity: 0.8; }
@@ -206,33 +206,36 @@
     width: 100%;
     background-size: cover;
     background-image: url(../img/main_back.JPG);
+    background-position: center center;
     background-attachment: fixed; }
 
   .contents2 {
-    padding-top: 40px;
-    width: 100%;
-    background-color: #000;
-    color: #fff; }
-    .contents2 h3 {
-      text-align: center;
-      font-size: 2.8em;
-      font-family: kozG-EL;
-      letter-spacing: 0.05em; }
-    .contents2 h4 {
-      padding-bottom: 30px; }
-    .contents2 p {
-      font-size: 14px;
-      margin-top: 50px;
-      padding-bottom: 70px;
-      letter-spacing: 0.2em;
-      line-height: 1.5;
-      font-family: kozG-R; }
-      .contents2 p #person {
-        font-size: 10px; }
-    .contents2 img {
-      width: 800px; }
-    .contents2 .con-img {
-      width: 800px; }
+    background-color: #000; }
+    .contents2 .container2 {
+      padding-top: 40px;
+      width: 86%;
+      color: #fff;
+      margin: 0 auto; }
+      .contents2 .container2 h3 {
+        text-align: center;
+        font-size: 2.8em;
+        font-family: kozG-EL;
+        letter-spacing: 0.05em; }
+      .contents2 .container2 h4 {
+        padding-bottom: 30px; }
+      .contents2 .container2 p {
+        font-size: 14px;
+        margin-top: 50px;
+        padding-bottom: 70px;
+        letter-spacing: 0.2em;
+        line-height: 1.5;
+        font-family: kozG-R; }
+        .contents2 .container2 p #person {
+          font-size: 10px; }
+      .contents2 .container2 img {
+        width: 100%; }
+      .contents2 .container2 .con-img {
+        width: 100%; }
 
   .webcontents {
     width: 100%;

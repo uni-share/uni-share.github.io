@@ -153,7 +153,6 @@ header{
 		font-family: kozG-M;
 		margin-top: 20px;
 		text-align: center;
-
 	}
 	h1{
 		// text-align: center;
@@ -167,7 +166,7 @@ header{
 	}
 	p{
 		letter-spacing: 0.18em;
-		font-size: 7px;
+		font-size: 12px;
 		text-align: center;
 		line-height: 1.9em;
 		// text-align: center;
@@ -207,7 +206,7 @@ header{
 		width: 100%;
 		margin-left: 10px;
 		img{
-			width: 30%;
+			width: 32%;
 			cursor: pointer;
 			&:hover{
 				opacity: 0.8;
@@ -228,39 +227,43 @@ header{
 	width: 100%;
 	background-size: cover;
 	background-image: url(../img/main_back.JPG);
+	background-position: center center;
 	background-attachment:fixed;
 }
 
 .contents2{
-	padding-top: 40px;
-	width: 100%;
 	background-color: #000;
-	color: #fff;
-	h3{
-		text-align: center;
-		font-size: 2.8em;
-		font-family: kozG-EL;
-		letter-spacing: 0.05em;
-	}
-	h4{
-		padding-bottom: 30px;
-	}
-	p{
-		font-size: 14px;
-		margin-top: 50px;
-		padding-bottom: 70px;
-		letter-spacing: 0.2em;
-		line-height: 1.5;
-		font-family: kozG-R;
-		#person{
-			font-size: 10px;
+	.container2{
+		padding-top: 40px;
+		width: 86%;
+		color: #fff;
+		margin: 0 auto;
+		h3{
+			text-align: center;
+			font-size: 2.8em;
+			font-family: kozG-EL;
+			letter-spacing: 0.05em;
 		}
-	}
-	img{
-		width: 800px;
-	}
-	.con-img{
-		width: 800px;
+		h4{
+			padding-bottom: 30px;
+		}
+		p{
+			font-size: 14px;
+			margin-top: 50px;
+			padding-bottom: 70px;
+			letter-spacing: 0.2em;
+			line-height: 1.5;
+			font-family: kozG-R;
+			#person{
+				font-size: 10px;
+			}
+		}
+		img{
+			width: 100%;
+		}
+		.con-img{
+			width: 100%;
+		}
 	}
 }
 
