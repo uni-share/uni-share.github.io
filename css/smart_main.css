@@ -259,14 +259,14 @@
     color: #fff; }
     .stock h3 {
       text-align: center;
-      font-size: 2em;
-      padding: 30px 0;
+      font-size: 1em;
+      padding: 15px 0;
       font-family: KozG-EL; }
     .stock .left {
       width: 100%;
       float: left; }
       .stock .left h4 {
-        font-size: 2em;
+        font-size: 1em;
         border-left: #fff solid 5px;
         padding-left: 15px;
         margin-bottom: 10px;
@@ -274,16 +274,16 @@
         font-family: KozG-L;
         line-height: 1.2; }
       .stock .left p {
-        font-size: 1.2em;
+        font-size: 0.7em;
         margin-bottom: 20px; }
     .stock .right {
       width: 100%;
       float: left;
       margin-bottom: 20px; }
       .stock .right p {
-        font-size: 1.2em; }
+        font-size: 0.7em; }
       .stock .right h5 {
-        font-size: 2em;
+        font-size: 1em;
         border-left: #fff solid 4px;
         padding-left: 10px;
         margin-bottom: 10px;
