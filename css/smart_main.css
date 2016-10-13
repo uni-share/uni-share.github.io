@@ -123,7 +123,8 @@
     top: 50%;
     height: 200px;
     width: 50px;
-    display: none; }
+    display: none;
+    z-index: 100; }
     .circles .circle {
       height: 10px;
       width: 10px;
@@ -160,7 +161,7 @@
       text-align: center; }
     .magazine p {
       letter-spacing: 0.18em;
-      font-size: 12px;
+      font-size: 10px;
       text-align: center;
       line-height: 1.9em;
       font-family: kozG-M; }
