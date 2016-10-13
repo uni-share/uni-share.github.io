@@ -188,8 +188,7 @@
     .cover .select {
       float: left;
       overflow: hidden;
-      width: 100%;
-      margin-left: 10px; }
+      width: 100%; }
       .cover .select img {
         width: 32%;
         cursor: pointer; }
