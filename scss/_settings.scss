@@ -48,3 +48,7 @@ $white:#000;
 	font-family: Yu;
 	src :url(../fonts_web/YuGothicMedium.otf)format("opentype");
 }
+
+$small:  "only screen and (max-width:640px)";
+$large: "only screen and (min-width:641px)";
+

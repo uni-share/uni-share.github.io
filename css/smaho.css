@@ -1,4 +1,4 @@
-@media only screen and (mim-width: 641px) {
+@media only screen and (max-width: 640px) {
   @font-face {
     font-family: kozG-EL;
     src: url(../fonts_web/KozGoPro-ExtraLight.otf) format("opentype"); }
@@ -99,17 +99,19 @@
             header nav ul li a:hover {
               color: rgba(0, 0, 0, 0.5); }
     header .main-visual {
+      display: none; }
+    header .main-visual2 {
       position: relative; }
-      header .main-visual #hero1 {
+      header .main-visual2 #hero3 {
         width: 100%;
         position: absolute;
-        top: -150px; }
-      header .main-visual #hero2 {
+        top: 0px; }
+      header .main-visual2 #hero4 {
         width: 100%;
         position: absolute;
         top: 0px;
         display: none; }
-      header .main-visual #hero3 {
+      header .main-visual2 #hero5 {
         width: 100%;
         position: absolute;
         top: -50px;
@@ -368,4 +370,4 @@
         font-size: 12px;
         margin-top: 3px; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=smaho.css.map */
