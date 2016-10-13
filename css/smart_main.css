@@ -249,8 +249,7 @@
       font-family: kozG-EL;
       letter-spacing: 0.05em; }
     .webcontents .webmaga {
-      width: 400px;
-      height: 400px;
+      width: 100%;
       box-sizing: border-box;
       background-color: #fff;
       float: left; }
