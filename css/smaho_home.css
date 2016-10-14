@@ -1,4 +1,4 @@
-@media only screen and (min-width: 641px) {
+@media only screen and (max-width: 640px) {
   @font-face {
     font-family: kozG-EL;
     src: url(../fonts_web/KozGoPro-ExtraLight.otf) format("opentype"); }
@@ -59,7 +59,7 @@
       text-align: left;
       padding-top: 8px; }
       nav h3 img {
-        padding-left: 50px; }
+        padding-left: 25px; }
     nav .ham {
       display: inline-block;
       vertical-align: top;
@@ -67,15 +67,14 @@
       width: 35px;
       height: 30px;
       float: right;
-      right: 50px;
+      right: 25px;
       top: -40px;
       cursor: pointer; }
       nav .ham .line {
         width: 35px;
         height: 4px;
         position: absolute;
-        background-color: #fff;
-        border-radius: 20%; }
+        background-color: #fff; }
       nav .ham .line1 {
         top: 0;
         right: 0; }
@@ -185,13 +184,13 @@
         bottom: 8%;
         text-align: center; }
         header .main-visual .text h1 {
-          font-size: 9em;
+          font-size: 4em;
           letter-spacing: 0.1em;
           line-height: 100%;
           padding-bottom: 15px;
           color: #fff; }
         header .main-visual .text h2 {
-          font-size: 1.2em;
+          font-size: 1em;
           letter-spacing: 0.2em;
           color: #fff; }
 
@@ -449,4 +448,4 @@
         font-size: 12px;
         margin-top: 3px; } }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=smaho_home.css.map */

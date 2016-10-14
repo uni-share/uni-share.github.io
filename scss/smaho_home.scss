@@ -1,4 +1,4 @@
-@media only screen and (min-width: 641px) {
+@media only screen and (max-width: 640px) {
 
 @import "settings";
 @import "function";
@@ -44,7 +44,7 @@ nav{
 		text-align: left;
 		padding-top: 8px;
 		img{
-			padding-left: 50px;
+			padding-left: 25px;
 		}
 	}
 	.ham{
@@ -54,7 +54,7 @@ nav{
 		width: 35px;
 		height: 30px;
 		float: right;
-		right: 50px;
+		right: 25px;
 		top: -40px;
 		cursor: pointer;
 		.line{
@@ -62,7 +62,6 @@ nav{
 			height: 4px;
 			position: absolute;
 			background-color: #fff;
-			border-radius: 20%;
 		}
 		.line1{
 			top: 0;
@@ -198,14 +197,14 @@ header{
 			bottom: 8%;
 			text-align: center;
 			h1{
-				font-size: 9em;
+				font-size: 4em;
 				letter-spacing: 0.1em;
 				line-height: 100%;
 				padding-bottom: 15px;
 				color: #fff;
 			}
 			h2{
-				font-size: 1.2em;
+				font-size: 1em;
 				letter-spacing: 0.2em;
 				color: #fff;
 			}
