@@ -204,7 +204,7 @@
     font-family: KozG-L;
     font-size: 1.2em; }
     main .msg .text {
-      width: 850px;
+      width: 86%;
       margin: 0 auto; }
       main .msg .text h2 {
         font-size: 1.3em;
@@ -237,8 +237,7 @@
       height: 100%;
       background-image: url("../img/home_pic2.jpg");
       background-size: cover;
-      background-position: center center;
-      background-attachment: fixed; }
+      background-position: center center; }
     main .big-com1 .comment {
       width: 100%;
       text-align: center;
@@ -260,8 +259,7 @@
       height: 100%;
       background-image: url("../img/home_pic3.JPG");
       background-size: cover;
-      background-position: center center;
-      background-attachment: fixed; }
+      background-position: center center; }
     main .small-com1 .left-comment {
       position: absolute;
       width: 50%;
@@ -287,8 +285,7 @@
       height: 100%;
       background-image: url("../img/home_pic4.jpg");
       background-size: cover;
-      background-position: center center;
-      background-attachment: fixed; }
+      background-position: center center; }
     main .small-com2 .right-comment {
       position: absolute;
       width: 50%;
@@ -314,8 +311,7 @@
       height: 100%;
       background-image: url("../img/home_pic5.JPG");
       background-size: cover;
-      background-position: center 10%;
-      background-attachment: fixed; }
+      background-position: center 10%; }
     main .big-com2 .comment {
       width: 100%;
       text-align: center;
@@ -339,8 +335,7 @@
       width: 100%;
       background-image: url("../img/home_pic6.JPG");
       background-size: cover;
-      background-position: center center;
-      background-attachment: fixed; }
+      background-position: center center; }
     main .small-com3 .right-comment {
       position: absolute;
       width: 50%;
