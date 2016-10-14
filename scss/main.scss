@@ -60,6 +60,9 @@ header{
 			display:inline;
 			margin-left: 30px;
 		}
+		.ham{
+			display: none;
+		}
 		ul{
 			float: right;
 			margin-right: 30px;
@@ -82,6 +85,9 @@ header{
 				}
 			}
 		}
+	}
+	.g-nav{
+		display: none;
 	}
 	.main-visual{
 		position: relative;
