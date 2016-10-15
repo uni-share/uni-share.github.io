@@ -117,7 +117,7 @@
       height: 100vh;
       position: absolute;
       z-index: 25;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.5);
       display: none;
       color: #fff;
       overflow: hidden;
