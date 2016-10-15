@@ -36,7 +36,7 @@
     font-family: Yu;
     src: url(../fonts_web/YuGothicMedium.otf) format("opentype"); }
   .dones {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.4); }
 
   * {
     margin: 0;
@@ -234,6 +234,9 @@
         position: absolute; }
         .cover .select .sub-cover .covers {
           cursor: pointer; }
+    .cover h6 {
+      text-align: center;
+      padding-top: 20px; }
 
   .contents {
     height: 50vh;
@@ -299,6 +302,8 @@
       font-size: 2em;
       padding: 15px 0;
       font-family: KozG-EL; }
+      .stock h3 .kome {
+        font-size: 0.35em; }
     .stock .left {
       width: 100%;
       float: left; }

@@ -260,6 +260,10 @@ header{
 			}
 		}
 	}
+	h6{
+		text-align: center;
+		padding-top: 20px;
+	}
 }
 
 .contents{
@@ -342,6 +346,9 @@ header{
 		font-family: KozG-EL;
 		// font-family: kozG-H;
 		// letter-spacing: 0.1em;
+		.kome{
+			font-size: 0.35em;
+		}
 	}
 	.left{
 		width: 100%;
