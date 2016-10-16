@@ -187,7 +187,8 @@ header{
 			background-image: url(../img/home_pic1.jpg);
 			background-size: cover;
 			height: 100%;
-			background-attachment:fixed;
+			background-position: center center;
+			// background-attachment:fixed;
 		}
 
 		height: 100vh;
@@ -202,14 +203,14 @@ header{
 			bottom: 8%;
 			text-align: center;
 			h1{
-				font-size: 4em;
+				font-size: 3.5em;
 				letter-spacing: 0.1em;
 				line-height: 100%;
 				padding-bottom: 15px;
 				color: #fff;
 			}
 			h2{
-				font-size: 1em;
+				font-size: 0.6em;
 				letter-spacing: 0.2em;
 				color: #fff;
 			}
@@ -265,6 +266,7 @@ main{
 		height: 60vh;
 		overflow: hidden;
 		position: relative;
+		font-family:KozG-L;
 		.img-home{
 			overflow: hidden;
 			height: 100%;
@@ -295,6 +297,7 @@ main{
 		height: 100vh;
 		overflow: hidden;
 		position: relative;
+		font-family:KozG-L;
 		.img-home{
 			// background-color: #000;
 			overflow: hidden;
@@ -329,6 +332,7 @@ main{
 		height: 100vh;
 		overflow: hidden;
 		position: relative;
+		font-family:KozG-L;
 		.img-home{
 			// background-color: #000;
 			overflow: hidden;
@@ -364,6 +368,7 @@ main{
 		height: 50vh;
 		overflow: hidden;
 		position: relative;
+		font-family:KozG-L;
 		.img-home{
 			overflow: hidden;
 			height: 100%;
@@ -393,6 +398,7 @@ main{
 		height: 77vh;
 		overflow: hidden;
 		position: relative;
+		font-family:KozG-L;
 		.img-home{
 			// background-color: #000;
 			overflow: hidden;
