@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media only screen and (max-width: 640px) {
   @font-face {
     font-family: kozG-EL;
@@ -135,7 +136,7 @@
             color: #000;
             font-size: 2em;
             font-family: KozG-B;
-            line-height: 2;
+            line-height: １;
             -webkit-transition: color .25s ease;
             -moz-transition: color .25s ease;
             -ms-transition: color .25s ease;
