@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media only screen and (max-width: 640px) {
   @font-face {
     font-family: kozG-EL;
@@ -134,9 +133,9 @@
           .g-nav .nav-con ul li a {
             text-decoration: none;
             color: #000;
-            font-size: 2em;
+            font-size: 1.5em;
             font-family: KozG-B;
-            line-height: １;
+            line-height: 1;
             -webkit-transition: color .25s ease;
             -moz-transition: color .25s ease;
             -ms-transition: color .25s ease;
@@ -148,7 +147,8 @@
       width: 100%;
       height: 180px;
       float: left;
-      margin-top: 30px; }
+      margin-top: 30px;
+      font-family: KozG-EL; }
       .g-nav footer .sns {
         text-align: center;
         width: 120px;
