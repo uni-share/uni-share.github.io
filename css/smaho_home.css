@@ -242,7 +242,7 @@
     main .msg2 p {
       text-shadow: 4px 2px 0 rgba(255, 255, 255, 0.5); }
   main .big-com1 {
-    height: 60vh;
+    height: 80vh;
     overflow: hidden;
     position: relative;
     font-family: KozG-L; }
@@ -268,7 +268,7 @@
         line-height: 2;
         font-style: italic; }
   main .small-com1 {
-    height: 100vh;
+    height: 150vh;
     overflow: hidden;
     position: relative;
     font-family: KozG-L; }
@@ -296,7 +296,7 @@
         text-align: right;
         margin-bottom: 40px; }
   main .small-com2 {
-    height: 100vh;
+    height: 150vh;
     overflow: hidden;
     position: relative;
     font-family: KozG-L; }
