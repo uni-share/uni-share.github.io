@@ -90,7 +90,7 @@ nav{
 	z-index: 25;
 	background-color: rgba(255,255,255,0.9);
 	box-sizing:border-box;
-	padding-top: 50px;
+	padding-top: 20px;
 	display: none;
 	.nav-con{
 		width: 100%;
@@ -128,7 +128,7 @@ nav{
 					// font-weight: bold;
 					font-size: 2em;
 					font-family: KozG-B;
-					line-height: 3;
+					line-height: 2;
 					-webkit-transition: color .25s ease;
 					   -moz-transition: color .25s ease;
 					    -ms-transition: color .25s ease;
@@ -203,8 +203,8 @@ header{
 			bottom: 8%;
 			text-align: center;
 			h1{
-				font-size: 3.5em;
-				letter-spacing: 0.2em;
+				font-size: 4em;
+				letter-spacing: 0.1em;
 				line-height: 100%;
 				padding-bottom: 15px;
 				color: #fff;
