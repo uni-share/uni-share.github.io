@@ -1,4 +1,4 @@
-@media only screen and (min-width: 641px) {
+@media only screen and (max-width: 640px) {
 
 @import "settings";
 @import "function";
@@ -9,7 +9,7 @@
 }
 
 .container{
-	width:700px;
+	width:90%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -30,7 +30,7 @@ nav{
 		text-align: left;
 		padding-top: 8px;
 		img{
-			padding-left: 50px;
+			padding-left: 25px;
 		}
 	}
 	.ham{
@@ -40,15 +40,14 @@ nav{
 		width: 35px;
 		height: 30px;
 		float: right;
-		right: 50px;
+		right: 25px;
 		top: -40px;
 		cursor: pointer;
 		.line{
 			width: 35px;
-			height: 4px;
+			height: 3px;
 			position: absolute;
 			background-color: #000;
-			border-radius: 20%;
 		}
 		.line1{
 			top: 0;
@@ -74,14 +73,15 @@ nav{
 	height: 100vh;
 	position: fixed;
 	z-index: 25;
-	background-color: rgba(255,255,255,0.95);
+	background-color: rgba(255,255,255,0.9);
 	box-sizing:border-box;
-	padding-top: 100px;
+	padding-top: 20px;
 	display: none;
 	.nav-con{
-		width: 900px;
+		width: 100%;
 		margin: 0 auto;
 		.nav-img{
+			display: none;
 			width: 400px;
 			margin-left: 70px;
 			overflow: hidden;
@@ -90,6 +90,7 @@ nav{
 			.nav-slide{
 				position: relative;
 				width: 100%;
+				display: none;
 				img{
 					position: absolute;
 					top: 30px;
@@ -100,17 +101,19 @@ nav{
 			}
 		}
 		ul{
-			width: 430px;
-			padding-bottom: 120px;
+			width: 100%;
+			padding-bottom: 0px;
 			float: left;
+			text-align: center;
 			li{
 				list-style-type: none;
 				a{
 					text-decoration: none;
+					padding: 10px 0;
 					color: #000;
 					// font-weight: bold;
-					font-size: 2.4em;
-					line-height: 2;
+					font-size: 1.5em;
+					font-family: KozG-B;
 					-webkit-transition: color .25s ease;
 					   -moz-transition: color .25s ease;
 					    -ms-transition: color .25s ease;
@@ -128,6 +131,7 @@ nav{
 		height: 180px;
 		float: left;
 		margin-top: 30px;
+		font-family:KozG-EL;
 		.sns{
 			text-align: center;
 			width: 120px;
@@ -143,6 +147,9 @@ nav{
 				width: 40px;
 				font-size: 25px;
 				color: #000;
+			}
+			#follow{
+				padding-top: 0;
 			}
 		}
 		#copy{
@@ -217,14 +224,14 @@ main{
 		top: 0;
 		left: 0;
 		position:absolute;
-		background-image: url(../img/youth_main.png);
+		background-image: url(../img/youth_);
 		background-size: cover;
 		color: #000;
 
 			text-align: center;
 			width: 100%;
 			#main-title{
-				font-size: 3em;
+				font-size: 1.7em;
 				padding-top: 200px;		
 				width: 100%;
 				font-family: kozG-B;
@@ -235,12 +242,12 @@ main{
 			h5{
 				font-family: KozG-M;
 				letter-spacing: 0.13em;
-				width: 510px;
+				width: 73%;
 				padding-top: 10px;
 				margin: 0 auto;
 				text-align: left;
-				font-size: 0.9em;
-				line-height: 2;
+				font-size: 0.5em;
+				line-height: 1.5;
 			}
 
 	}
@@ -253,6 +260,7 @@ main{
 		position:absolute;
 		background-image: url(../img/youth_hattori2.jpg);
 		background-size: cover;
+		background-position: center center;
 		h3{
 			font-size: 1.7em;
 			position: absolute;
@@ -279,22 +287,21 @@ main{
 			}
 		}
 		p{
-			width: 500px;
+			width: 90%;
 			box-sizing:border-box;
 			padding: 30px;
-			background-color: rgba(255,255,255,1);
-			font-size: 0.9em;
+			background-color: rgba(255,255,255,0.8);
+			font-size: 0.7em;
 			letter-spacing: 0;
-			position: absolute;
-			bottom: 30px;
-			left: 100px;
 			font-family: KozG-M;
+			position: absolute;
+			left: 5%;
 			.jobs{
-				font-size: 1.5em;
+				font-size: 1em;
 				letter-spacing: 0.1em;
 				font-family: KozG-B;
 				.name{
-				font-size: 1.7em;
+				font-size: 1.9em;
 				}
 			}
 			a{
@@ -312,6 +319,7 @@ main{
 		position:absolute;
 		background-image: url(../img/youth_inada2.jpg);
 		background-size: cover;
+		background-position: center center;
 		h3{
 			font-size: 1.7em;
 			position: absolute;
@@ -336,22 +344,21 @@ main{
 			}
 		}
 		p{
-			width: 500px;
+			width: 90%;
 			box-sizing:border-box;
 			padding: 30px;
-			background-color: rgba(255,255,255,1);
-			font-size: 0.9em;
+			background-color: rgba(255,255,255,0.8);
+			font-size: 0.7em;
 			letter-spacing: 0;
 			position: absolute;
-			bottom: 30px;
-			right: 100px;
+			left:5%;
 			font-family: KozG-M;
 			.jobs{
-				font-size: 1.5em;
+				font-size: 1em;
 				letter-spacing: 0.1em;
 				font-family: KozG-B;
 				.name{
-				font-size: 1.7em;
+				font-size: 1.9em;
 				}
 			}
 			a{
