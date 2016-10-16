@@ -296,7 +296,7 @@
         text-align: right;
         margin-bottom: 40px; }
   main .small-com2 {
-    height: 150vh;
+    height: 180vh;
     overflow: hidden;
     position: relative;
     font-family: KozG-L; }
@@ -335,18 +335,19 @@
       background-size: cover;
       background-position: center 10%; }
     main .big-com2 .comment {
-      width: 100%;
+      width: 90%;
       text-align: center;
       position: absolute;
       top: 30%;
+      left: 5%;
       color: rgba(255, 255, 255, 0.9);
       text-align: center; }
       main .big-com2 .comment h3 {
         letter-spacing: 0.2em;
-        font-size: 12px;
+        font-size: 11px;
         text-shadow: 3px 5px 0 #000;
         font-weight: normal;
-        line-height: 3;
+        line-height: 2;
         font-style: italic; }
   main .small-com3 {
     height: 77vh;
