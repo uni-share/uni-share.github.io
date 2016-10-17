@@ -43,6 +43,16 @@
     padding: 0;
     font-family: kozG-L; }
 
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden; }
+
+  .container2 {
+    width: 86%;
+    margin: 0 auto;
+    overflow: hidden; }
+
   .wrapper {
     display: none; }
 
@@ -66,16 +76,6 @@
       color: #fff;
       z-index: 101; }
 
-  .container {
-    width: 700px;
-    margin: 0 auto;
-    overflow: hidden; }
-
-  .container2 {
-    width: 800px;
-    margin: 0 auto;
-    overflow: hidden; }
-
   h2 {
     width: 200px;
     margin-left: 30px;
@@ -86,7 +86,7 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #888; }
+    background-color: #fff; }
     header nav {
       position: absolute;
       width: 100%;
@@ -101,35 +101,68 @@
       -o-transition: all .5s ease;
       transition: all .5s ease; }
       header nav img {
-        width: 80px;
+        width: 60px;
         padding-top: 10px; }
       header nav h3 {
         display: inline;
         margin-left: 30px; }
-      header nav ul {
+      header nav #origin {
+        display: none; }
+      header nav .ham {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        width: 35px;
+        height: 30px;
         float: right;
-        margin-right: 30px; }
-        header nav ul li {
-          list-style-type: none;
-          float: left;
-          padding: 0 12px; }
-          header nav ul li a {
-            color: #fff;
+        right: 30px;
+        top: 15px;
+        cursor: pointer; }
+        header nav .ham .line {
+          width: 35px;
+          height: 2px;
+          position: absolute;
+          background-color: #fff; }
+        header nav .ham .line1 {
+          top: 0;
+          right: 0; }
+        header nav .ham .line2 {
+          top: 8px;
+          right: 0; }
+        header nav .ham .line3 {
+          top: 16px;
+          right: 0; }
+        header nav .ham .line4 {
+          top: 24px;
+          right: 0; }
+    header .g-nav {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      z-index: 25;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+      color: #fff;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding-top: 100px; }
+      header .g-nav ul {
+        padding-bottom: 120px;
+        padding-left: 30px;
+        float: left; }
+        header .g-nav ul li {
+          list-style-type: none; }
+          header .g-nav ul li a {
             text-decoration: none;
-            display: block;
-            -webkit-transition: all .5s ease;
-            -moz-transition: all .5s ease;
-            -ms-transition: all .5s ease;
-            -o-transition: all .5s ease;
-            transition: all .5s ease; }
-            header nav ul li a:hover {
-              color: rgba(0, 0, 0, 0.5); }
+            color: #fff;
+            font-size: 1.8em;
+            line-height: 2; }
     header .main-visual {
       display: none; }
     header .main-visual2 {
       position: relative; }
       header .main-visual2 #hero3 {
-        width: 100%;
+        width: 120%;
         position: absolute;
         top: 0px; }
       header .main-visual2 #hero4 {
@@ -145,48 +178,48 @@
 
   .circles {
     position: fixed;
-    right: 10px;
+    right: 0px;
     top: 50%;
-    height: 300px;
-    width: 50px;
-    display: none; }
+    width: 20px;
+    display: none;
+    z-index: 100; }
     .circles .circle {
-      height: 20px;
-      width: 20px;
+      height: 10px;
+      width: 10px;
       border-radius: 50%;
       background-color: rgba(33, 33, 33, 0.6);
       position: absolute; }
     .circles .maru1 {
       top: 0; }
     .circles .maru2 {
-      top: 40px; }
+      top: 20px; }
     .circles .maru3 {
-      top: 80px; }
+      top: 40px; }
     .circles .maru4 {
-      top: 120px; }
+      top: 60px; }
     .circles .maru5 {
-      top: 160px; }
+      top: 80px; }
 
   .magazine {
-    height: 100vh;
     width: 100%;
-    margin: 150px 0 50px 0;
+    margin: 0px 0 50px 0;
     background-color: #fff; }
     .magazine .title {
       font-weight: normal;
-      font-size: 14px;
+      font-size: 8px;
       font-family: kozG-M;
-      float: right;
-      margin-top: 20px; }
+      margin-top: 20px;
+      text-align: center; }
     .magazine h1 {
-      padding: 10px 0 30px 0;
-      font-size: 2.8em;
+      padding: 0px 0 30px 0;
+      font-size: 1.8em;
       font-weight: normal;
-      margin-left: -20px;
-      font-family: kozG-B; }
+      font-family: kozG-B;
+      text-align: center; }
     .magazine p {
       letter-spacing: 0.18em;
-      font-size: 13px;
+      font-size: 8px;
+      text-align: center;
       line-height: 1.9em;
       font-family: kozG-M; }
       .magazine p .big {
@@ -194,13 +227,14 @@
 
   .cover {
     width: 100%;
-    margin: 0 0 150px; }
+    margin: 0 0 150px;
+    overflow: hidden; }
     .cover .container {
       overflow: hidden;
       position: relative;
       text-align: center; }
     .cover .main-cover {
-      width: 495px;
+      width: 100%;
       float: left; }
       .cover .main-cover img {
         width: 100%; }
@@ -212,10 +246,9 @@
     .cover .select {
       float: left;
       overflow: hidden;
-      width: 160px;
-      margin-left: 10px; }
+      width: 100%; }
       .cover .select img {
-        width: 100%;
+        width: 32%;
         cursor: pointer; }
         .cover .select img:hover {
           opacity: 0.8; }
@@ -224,39 +257,45 @@
         position: absolute; }
         .cover .select .sub-cover .covers {
           cursor: pointer; }
+    .cover h6 {
+      text-align: center;
+      padding-top: 20px; }
 
   .contents {
     height: 50vh;
     width: 100%;
     background-size: cover;
     background-image: url(../img/main_back.JPG);
-    background-attachment: fixed; }
+    background-position: center center; }
 
   .contents2 {
-    padding-top: 40px;
-    width: 100%;
-    background-color: #000;
-    color: #fff; }
-    .contents2 h3 {
-      text-align: center;
-      font-size: 2.8em;
-      font-family: kozG-EL;
-      letter-spacing: 0.05em; }
-    .contents2 h4 {
-      padding-bottom: 30px; }
-    .contents2 p {
-      font-size: 14px;
-      margin-top: 50px;
-      padding-bottom: 70px;
-      letter-spacing: 0.2em;
-      line-height: 1.5;
-      font-family: kozG-R; }
-      .contents2 p #person {
-        font-size: 10px; }
-    .contents2 img {
-      width: 800px; }
-    .contents2 .con-img {
-      width: 800px; }
+    background-color: #000; }
+    .contents2 .container2 {
+      padding-top: 40px;
+      width: 86%;
+      color: #fff;
+      margin: 0 auto; }
+      .contents2 .container2 h3 {
+        text-align: center;
+        font-size: 2em;
+        font-family: kozG-EL;
+        letter-spacing: 0.05em; }
+      .contents2 .container2 h4 {
+        padding-bottom: 30px;
+        font-size: 9px; }
+      .contents2 .container2 p {
+        font-size: 11px;
+        margin-top: 50px;
+        padding-bottom: 70px;
+        letter-spacing: 0.2em;
+        line-height: 1.5;
+        font-family: kozG-R; }
+        .contents2 .container2 p #person {
+          font-size: 10px; }
+      .contents2 .container2 img {
+        width: 100%; }
+      .contents2 .container2 .con-img {
+        width: 100%; }
 
   .webcontents {
     width: 100%;
@@ -265,22 +304,17 @@
     color: #fff; }
     .webcontents h3 {
       text-align: center;
-      font-size: 2.8em;
+      font-size: 2em;
       padding-bottom: 50px;
       font-family: kozG-EL;
       letter-spacing: 0.05em; }
     .webcontents .webmaga {
-      width: 400px;
-      height: 400px;
-      box-sizing: border-box;
-      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
       float: left; }
-      .webcontents .webmaga:hover {
-        background-color: #888; }
       .webcontents .webmaga img {
         width: 100%; }
-        .webcontents .webmaga img:hover {
-          opacity: 0.5; }
 
   .stock {
     width: 100%;
@@ -288,64 +322,70 @@
     color: #fff; }
     .stock h3 {
       text-align: center;
-      font-size: 2.8em;
-      padding: 30px 0;
+      font-size: 2em;
+      padding: 15px 0;
       font-family: KozG-EL; }
+      .stock h3 .kome {
+        font-size: 0.35em; }
     .stock .left {
-      width: 340px;
+      width: 100%;
       float: left; }
       .stock .left h4 {
-        font-size: 2.3em;
+        font-size: 1em;
         border-left: #fff solid 5px;
         padding-left: 15px;
         margin-bottom: 10px;
         font-weight: normal;
-        font-family: KozG-L;
+        font-family: KozG-EL;
         line-height: 1.2; }
       .stock .left p {
-        font-size: 1.2em;
+        font-size: 0.7em;
         margin-bottom: 20px; }
     .stock .right {
-      width: 270px;
-      float: left; }
+      width: 100%;
+      float: left;
+      margin-bottom: 20px; }
       .stock .right p {
-        font-size: 0.9em; }
+        font-size: 0.7em; }
       .stock .right h5 {
-        font-size: 2em;
-        border-left: #fff solid 4px;
-        padding-left: 10px;
-        margin-bottom: 10px;
-        line-height: 1.2; }
-    .stock .right2 {
-      width: 180px;
-      float: left; }
-      .stock .right2 p {
-        font-size: 0.9em;
-        margin-bottom: 20px; }
-      .stock .right2 h5 {
-        font-size: 2em;
+        font-size: 1em;
         border-left: #fff solid 4px;
         padding-left: 10px;
         margin-bottom: 10px;
         line-height: 1.2;
-        letter-spacing: 0; }
+        font-weight: normal; }
+    .stock .right2 {
+      width: 100%;
+      float: left; }
+      .stock .right2 p {
+        font-size: 0.7em;
+        margin-bottom: 20px; }
+      .stock .right2 h5 {
+        font-size: 1em;
+        border-left: #fff solid 4px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-weight: normal; }
 
   .contact {
     width: 100%;
     height: 50vh;
-    padding-bottom: 50px;
+    padding-bottom: 300px;
     background-color: #000;
     color: #fff;
     text-align: center; }
     .contact h3 {
       text-align: center;
-      font-size: 2.8em;
+      font-size: 2em;
       padding: 30px 0;
       font-family: KozG-EL; }
     .contact a {
       text-decoration: none;
       border: solid #fff 1px;
       padding: 10px;
+      font-size: 0.9em;
       display: block;
       width: 60%;
       margin: 0 auto;
