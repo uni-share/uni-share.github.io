@@ -50,7 +50,7 @@ $(function(){
 	var duration = 200;
 
 	$window.on("scroll",function(){
-		if($window.scrollTop() > magazineOffsetTop - 300){
+		if($window.scrollTop() > magazineOffsetTop + 300){
 			$(".circles").fadeIn();
 		}else{
 			$(".circles").fadeOut();
