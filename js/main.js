@@ -42,7 +42,7 @@ $(function(){
 	var $contents = $(".contents");
 	var $web = $(".webcontents");
 	var $stock = $(".stock");
-	var magazineOffsetTop = $magazine.offset().top;
+	var magazineOffsetTop = $magazine.offset().top -200;
 	var coverOffsetTop = $cover.offset().top -300;
 	var contentsOffsetTop = $contents.offset().top -100;
 	var webcontentsOffsetTop = $web.offset().top -200;
@@ -50,17 +50,17 @@ $(function(){
 	var duration = 200;
 
 	$window.on("scroll",function(){
-		if($window.scrollTop() > magazineOffsetTop + 300){
+		if($window.scrollTop() > magazineOffsetTop - 300){
 			$(".circles").fadeIn();
 		}else{
 			$(".circles").fadeOut();
 		}
 
-		if(magazineOffsetTop-300 < $window.scrollTop() && $window.scrollTop() < coverOffsetTop){
+		if( $window.scrollTop() > magazineOffsetTop && $window.scrollTop() < coverOffsetTop ){
 			$(".maru1").stop().animate({
 				"background-color":"red"
 			},duration);
-		}else{
+		}else {
 			$(".maru1").stop().animate({
 				"background-color":"rgba(33,33,33,0.6)"
 			},duration);

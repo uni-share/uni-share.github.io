@@ -43,8 +43,6 @@
     padding: 0;
     font-family: kozG-L; }
 
-  .wrapper {
-    display: none; }
 
   .loader {
     position: fixed;
@@ -53,8 +51,9 @@
     top: 0px;
     left: 0px;
     background: #000;
-    z-index: 100; }
-    .loader .load {
+    z-index: 100; 
+  }
+    .load {
       position: fixed;
       top: 50%;
       left: 50%;
@@ -64,7 +63,8 @@
       margin-left: -100px;
       text-align: center;
       color: #fff;
-      z-index: 101; }
+      z-index: 101; 
+    }
 
   .container {
     width: 700px;
