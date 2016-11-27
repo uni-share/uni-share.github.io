@@ -53,8 +53,8 @@
     margin: 0 auto;
     overflow: hidden; }
 
-  .wrapper {
-    display: none; }
+/*  .wrapper {
+    display: none; }*/
 
   .loader {
     position: fixed;
